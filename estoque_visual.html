@@ -1,0 +1,113 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Estoque Agrícola - Atualizado em 25/07/2025 08:57</title>
+        <style>
+            body {
+                font-family: 'Segoe UI', system-ui, sans-serif;
+                background-color: #f5f5f5;
+                margin: 0;
+                padding: 20px;
+            }
+            .header {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            h1 {
+                color: #2e7d32;
+                margin-bottom: 5px;
+            }
+            .update-info {
+                color: #666;
+                font-size: 0.9em;
+            }
+            .container {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                gap: 25px;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            .card {
+                background: white;
+                border-radius: 12px;
+                box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+                padding: 20px;
+                transition: transform 0.3s ease;
+            }
+            .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            }
+            .card img {
+                width: 100%;
+                height: 120px;
+                object-fit: contain;
+                margin-bottom: 15px;
+            }
+            .card h2 {
+                font-size: 1.1em;
+                color: #333;
+                margin: 0 0 10px 0;
+            }
+            .card p {
+                margin: 8px 0;
+                font-size: 0.95em;
+                color: #555;
+            }
+            @media (max-width: 600px) {
+                .container {
+                    grid-template-columns: 1fr;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Painel de Estoque Grão</h1>
+            <div class="update-info">Atualizado em 25/07/2025 às 08:57</div>
+        </div>
+        <div class="container">
+            
+            <div class="card">
+                <img src="imagens/trigo.png" alt="TRIGO COMERCIAL NACIONAL" loading="lazy">
+                <h2>TRIGO COMERCIAL NACIONAL</h2>
+                <p><strong>Quantidade:</strong> 6.368.108,25</p>
+                <p><strong>Valor em Estoque:</strong> R$ 9.807.262,43</p>
+            </div>
+        
+            <div class="card">
+                <img src="imagens/soja.png" alt="SOJA COMERCIAL EM GRAOS" loading="lazy">
+                <h2>SOJA COMERCIAL EM GRAOS</h2>
+                <p><strong>Quantidade:</strong> 11.069.281,00</p>
+                <p><strong>Valor em Estoque:</strong> R$ 22.098.037,36</p>
+            </div>
+        
+            <div class="card">
+                <img src="imagens/milho.png" alt="MILHO COMERCIAL EM GRAOS" loading="lazy">
+                <h2>MILHO COMERCIAL EM GRAOS</h2>
+                <p><strong>Quantidade:</strong> 2.072.884,00</p>
+                <p><strong>Valor em Estoque:</strong> R$ 1.895.445,13</p>
+            </div>
+        
+            <div class="card">
+                <img src="imagens/sorgo.png" alt="SORGO COMERCIAL" loading="lazy">
+                <h2>SORGO COMERCIAL</h2>
+                <p><strong>Quantidade:</strong> 528.483,00</p>
+                <p><strong>Valor em Estoque:</strong> R$ 394.830,71</p>
+            </div>
+        
+            <div class="card">
+                <img src="imagens/milho.png" alt="MILHO COMERCIAL EM GRAOS" loading="lazy">
+                <h2>MILHO COMERCIAL EM GRAOS</h2>
+                <p><strong>Quantidade:</strong> 325.040,00</p>
+                <p><strong>Valor em Estoque:</strong> R$ 297.216,58</p>
+            </div>
+        
+        </div>
+    </body>
+    </html>
+    
